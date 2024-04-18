@@ -1,0 +1,143 @@
+.grid-container {
+    width: 300px;
+    background-color: var(--darkgrey);
+    border: 2px solid var(--darkgrey);
+    border-radius: 1.5rem;
+}
+
+.grid-container:hover {
+    scale: 1.05;
+    border: 2px solid var(--green);
+    transition: all 0.3s smooth;
+}
+
+.grid-container-red:hover {
+    scale: 1.05;
+    border: 2px solid var(--red);
+    transition: all 0.3s smooth;
+}
+
+
+
+.info-flex {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem 1.4rem;
+
+}
+
+.coin-symbol {
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 600;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.coin-name {
+    font-size: 0.8rem;
+    margin: 0;
+    font-weight: normal;
+    color: lightslategray;
+    text-transform: capitalize;
+}
+
+.logo-col {
+    height: 3rem;
+    width: 3rem;
+
+}
+
+.name-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.chip-flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1.2rem 1.5rem;
+    gap: 1.5rem;
+}
+
+.chip-price {
+    border: 2px solid var(--green);
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--green);
+    border-radius: 1.5rem;
+    padding: 0.35rem 0.6rem;
+    min-width: 70px;
+}
+
+.chip-price:hover {
+    color: var(--white);
+    background-color: var(--green);
+    transition: all 0.3s smooth;
+}
+
+.chip-price-red {
+    color: var(--red);
+    border: 2px solid var(--red);
+}
+
+.chip-price-red:hover {
+    color: var(--white) !important;
+    background-color: var(--red) !important;
+    transition: all 0.3s smooth;
+}
+
+.icon-chip {
+    border: 2px solid var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.2rem;
+    color: var(--green);
+    border-radius: 50%;
+}
+
+.icon-chip:hover {
+    background-color: var(--green);
+    color: var(--white);
+    transition: all 0.3s smooth;
+}
+
+.icon-chip-red {
+    border: 2px solid var(--red);
+    color: var(--red);
+}
+
+.icon-chip-red:hover {
+    background-color: var(--red);
+    color: var(--white);
+    transition: all 0.3s smooth;
+}
+
+.info-container {
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info-container h1 {
+    font-size: 1.5rem;
+    color: var(--green);
+    font-weight: 700;
+
+}
+
+.market-info p {
+    color: grey;
+    font-size: 0.8rem;
+}

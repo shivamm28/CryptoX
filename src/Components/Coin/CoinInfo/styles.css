@@ -1,0 +1,4 @@
+.coin-info-desc a {
+    text-decoration: underline !important;
+    color: var(--blue) !important;
+}
